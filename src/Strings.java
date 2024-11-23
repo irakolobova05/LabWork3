@@ -13,7 +13,7 @@ public class Strings {
         try {
             int n = m_name.length();
             String gender;
-            if (n>=4 && (m_name.substring(n - 4, n).equals("овна") || m_name.substring(n - 4, n).equals("евна") || m_name.substring(n - 4, n).equals("ична") || m_name.substring(n - 6, n).equals("инична"))) {
+            if (n>=6 && (m_name.substring(n - 4, n).equals("овна") || m_name.substring(n - 4, n).equals("евна") || m_name.substring(n - 4, n).equals("ична") || m_name.substring(n - 6, n).equals("инична"))) {
                 gender = "Женский";
             }
             else if (n>=4 && (m_name.substring(n - 4, n).equals("ович") || m_name.substring(n - 4, n).equals("евич") || m_name.substring(n - 2, n).equals("ич"))) {
